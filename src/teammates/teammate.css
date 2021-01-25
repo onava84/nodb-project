@@ -1,0 +1,8 @@
+.player-name-team {
+  display: inline;
+  margin-right: 20px;
+}
+.remove-button {
+  display: inline;
+  padding: 5px;
+}

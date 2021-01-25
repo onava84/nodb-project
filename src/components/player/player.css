@@ -1,0 +1,76 @@
+.player-card {
+  /* border: solid 1px rgb(213, 213, 213); */
+  border-radius: 10px;
+  padding: 25px;
+  background-color: rgb(255, 255, 255);
+  min-width: 250px;
+  margin-bottom: 50px;
+  margin-right: 50px;
+  box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.173);
+}
+button {
+  display: block;
+  margin-top: 10px;
+  background-color: rgb(0, 98, 172);
+  color: white;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 12px;
+  letter-spacing: 1px;
+  border-radius: 2px;
+}
+.player-image {
+  width: 250px;
+  height: 150px;
+  object-fit: cover;
+  object-position: 0 0;
+  border-radius: 3px;
+}
+.player-name {
+  /* margin-top: 10px; */
+  margin-bottom: 15px;
+  padding: 5px;
+  /* 
+  background-color: gray;
+  color: white;
+  */
+}
+.update-fields {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.update-info-card {
+  font-weight: bold;
+}
+.update-field {
+  padding: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+.edit-options,
+.save-button {
+  display: inline;
+  outline: none;
+  margin-right: 15px;
+}
+.save-button {
+  background-color: rgb(0, 143, 62);
+}
+.cancel {
+  background-color: rgb(205, 0, 0);
+  display: inline;
+  outline: none;
+  margin-right: 15px;
+}
+.fields-required {
+  color: rgb(171, 12, 12);
+  font-size: 15px;
+  /* padding: 5px;
+  background-color: rgb(255, 184, 184); */
+  margin-bottom: 10px;
+  width: fit-content;
+  border-radius: 3px;
+}

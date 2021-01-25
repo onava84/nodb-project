@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "Luis Suarez",
+    "position": "Striker",
+    "value": 60,
+    "team": "Atl. Madrid",
+    "image": "https://images.daznservices.com/di/library/GOAL/c7/33/luis-suarez-atletico-madrid_ethkazi92kbb1xgpa0t8vl938.jpg?t=1836506261&quality=100"
+  },
+  {
+    "id": 2,
+    "name": "Hirving Lozano",
+    "position": "Striker",
+    "value": 52,
+    "team": "Napoli",
+    "image": "https://images2.minutemediacdn.com/image/fetch/w_736,h_485,c_fill,g_auto,f_auto/https%3A%2F%2Fprincerupertstower.com%2Fwp-content%2Fuploads%2Fgetty-images%2F2020%2F06%2F1192658762-850x560.jpeg"
+  },
+  {
+    "id": 3,
+    "name": "Gianluigi Buffon",
+    "position": "Goalkeeper",
+    "value": 20,
+    "team": "Juventus",
+    "image": "https://static01.nyt.com/images/2015/06/05/sports/BUFFONsilo/BUFFONsilo-superJumbo.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Sergio Ramos",
+    "position": "Defender",
+    "value": 30,
+    "team": "Real Madrid",
+    "image": "https://cdn.vox-cdn.com/thumbor/ADxpHJQDzrtD9lMZo2ZgBMGpwXo=/0x0:1962x2943/1400x933/filters:focal(790x477:1102x789):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/67745280/1283940530.0.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Gerard Pique",
+    "position": "Defender",
+    "value": 18,
+    "team": "Barcelona",
+    "image": "https://static.toiimg.com/thumb/msid-79057866,width-1200,height-900,resizemode-4/.jpg"
+  },
+  {
+    "id": 6,
+    "name": "David Alaba",
+    "position": "Defender",
+    "value": 70,
+    "team": "Bayern Munich",
+    "image": "https://cdn.vox-cdn.com/thumbor/vSyYltdY3ONqV7HU-I2h35J9FUY=/0x0:3309x2083/1200x800/filters:focal(1435x112:1963x640)/cdn.vox-cdn.com/uploads/chorus_image/image/68645044/1295387248.0.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Kyle Walker",
+    "position": "Defender",
+    "value": 40,
+    "team": "Manchester City",
+    "image": "https://i2-prod.manchestereveningnews.co.uk/sport/football/football-news/article19199385.ece/ALTERNATES/s1200b/1_Kyle-Walker.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Leandro Paredes",
+    "position": "Midfielder",
+    "value": 60,
+    "team": "PSG",
+    "image": "https://www.sport.fr/wp-content/uploads/2020/10/Icon_DIB_021020_10_145.jpg"
+  },
+  {
+    "id": 9,
+    "name": "Paul Pogba",
+    "position": "Midfielder",
+    "value": 90,
+    "team": "Man United",
+    "image": "https://resize.indiatvnews.com/en/resize/newbucket/715_-/2020/08/paul-pogba-1598265588.jpg"
+  },
+  {
+    "id": 10,
+    "name": "Toni Kroos",
+    "position": "Midfielder",
+    "value": 85,
+    "team": "Real Madrid",
+    "image": "https://images2.minutemediacdn.com/image/upload/c_fill,w_720,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/Real-Madrid-CF-v-Villarreal-CF----La-Liga-d2bb1f9161862db1e17ef7dacfa47d5a.jpg"
+  },
+  {
+    "id": 11,
+    "name": "Neymar",
+    "position": "Striker",
+    "value": 300,
+    "team": "PSG",
+    "image": "https://cdn.kickoff.com/cms2/image_manager/uploads/News/690274/7/default.jpg"
+  },
+  {
+    "id": 12,
+    "name": "Casemiro",
+    "position": "Midfielder",
+    "value": 90,
+    "team": "Real Madrid",
+    "image": "https://img.bleacherreport.net/img/images/photos/003/854/744/hi-res-2c41e8b5c549c8a4e49ac21b5b9e6f2e_crop_north.jpg?1582813708&w=3072&h=2048"
+  }
+]

@@ -1,0 +1,27 @@
+.new-player-container {
+  /* border: solid 2px purple; */
+  padding: 20px;
+  background-color: rgb(238, 238, 238);
+}
+.fields-block {
+}
+input {
+  margin-right: 30px;
+}
+.add-player-field {
+  padding: 10px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+/* .add-player-field:focus {
+  border: 2px solid rgb(0, 143, 0);
+} */
+.fields-required {
+  color: rgb(171, 12, 12);
+  font-size: 15px;
+  /* padding: 5px;
+  background-color: rgb(255, 184, 184); */
+  margin-bottom: 10px;
+  width: fit-content;
+  border-radius: 3px;
+}
