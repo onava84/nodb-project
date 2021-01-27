@@ -8,6 +8,7 @@ app.use(express.json());
 const playersCtrl = require("./playersCtrl");
 
 app.get("/api/players", playersCtrl.getPlayers);
+app.get("/api/players/:id", playersCtrl.getSinglePlayer);
 app.post("/api/players", playersCtrl.addPlayer);
 app.put("/api/players/:id", playersCtrl.editPlayer);
 app.delete("/api/players/:id", playersCtrl.deletePlayer);

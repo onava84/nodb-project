@@ -39,7 +39,7 @@ class NewPlayer extends Component {
       let newPlayer = {
         name: this.state.name,
         position: this.state.position,
-        value: this.state.value,
+        value: +this.state.value,
         team: this.state.team,
         image: this.state.image,
       };
@@ -59,6 +59,15 @@ class NewPlayer extends Component {
   };
 
   render() {
+    const {
+      fieldEmpty,
+      errorMessage,
+      name,
+      position,
+      value,
+      team,
+      image,
+    } = this.state;
     // console.log(this.name.value);
     return (
       <div className="new-player-container">
@@ -66,43 +75,41 @@ class NewPlayer extends Component {
           <h2>Add New Player</h2>
         </div>
         <div className="fields-block">
-          <p className="fields-required">
-            {this.state.fieldEmpty ? this.state.errorMessage : null}
-          </p>
+          <p className="fields-required">{fieldEmpty ? errorMessage : null}</p>
           <input
             name="name"
             placeholder="Name"
             onChange={this.handleInput}
             className="add-player-field"
-            value={this.state.name}
+            value={name}
           />
           <input
             name="position"
             placeholder="Position"
             onChange={this.handleInput}
             className="add-player-field"
-            value={this.state.position}
+            value={position}
           />
           <input
             name="value"
             placeholder="Value"
             onChange={this.handleInput}
             className="add-player-field"
-            value={this.state.value}
+            value={value}
           />
           <input
             name="team"
             placeholder="Team"
             onChange={this.handleInput}
             className="add-player-field"
-            value={this.state.team}
+            value={team}
           />
           <input
             name="image"
             placeholder="Image"
             onChange={this.handleInput}
             className="add-player-field"
-            value={this.state.image}
+            value={image}
           />
           <button onClick={this.addPlayer}>ADD PLAYER</button>
         </div>

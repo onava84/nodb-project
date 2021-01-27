@@ -17,6 +17,22 @@ function Filter(props) {
         <option value="Midfielder">Midfielder</option>
         <option value="Striker">Striker</option>
       </select>
+
+      <select className="dropdown" onChange={e => props.handleTeamPlaying(e)}>
+        <option selected value="All teams">
+          All teams
+        </option>
+        <option value="Barcelona">Barcelona</option>
+        <option value="Real Madrid">Real Madrid</option>
+        <option value="Juventus">Juventus</option>
+        <option value="Bayern Munich">Bayern Munich</option>
+        <option value="PSG">PSG</option>
+        <option value="Manchester City">Manchester City</option>
+        <option value="Man United">Man United</option>
+        <option value="Cagliari">Cagliari</option>
+        <option value="Atletico de Madrid">Atletico de Madrid</option>
+        <option value="Napoli">Napoli</option>
+      </select>
     </div>
   );
 }

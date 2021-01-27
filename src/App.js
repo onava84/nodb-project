@@ -15,29 +15,40 @@ class App extends Component {
       team: [],
       totalValue: 0,
       position: "",
+      teamPlaying: "",
     };
   }
 
   getPlayers = () => {
-    axios
-      .get(`http://localhost:4040/api/players?position=${this.state.position}`)
-      .then(res => {
-        // console.log(res.data);
-        this.setState({
-          players: res.data,
-        });
+    let position =
+      this.state.position === "All positions" ? undefined : this.state.position;
+    let team =
+      this.state.teamPlaying === "All teams"
+        ? undefined
+        : this.state.teamPlaying;
+    let queries = {
+      position,
+      team,
+    };
+    let queryString = "";
+
+    for (let key in queries) {
+      if (queries[key]) {
+        queryString += "&" + key + "=" + queries[key];
+      }
+    }
+
+    axios.get(`http://localhost:4040/api/players?${queryString}`).then(res => {
+      // console.log(res.data);
+      this.setState({
+        players: res.data,
       });
+    });
   };
 
   componentDidMount() {
     this.getPlayers();
   }
-
-  // getPlayersPost() {
-  //   this.setState({
-  //     players: this.players,
-  //   });
-  // }
 
   handleDelete = id => {
     axios.delete(`http://localhost:4040/api/players/${id}`).then(res => {
@@ -98,12 +109,25 @@ class App extends Component {
     });
   };
 
-  componentDidUpdate() {
-    this.getPlayers();
+  handleTeamPlaying = e => {
+    // console.log(e.target.value);
+    this.setState({
+      teamPlaying: e.target.value,
+    });
+  };
+
+  componentDidUpdate(prevProps, prevState) {
+    if (
+      prevState.position !== this.state.position ||
+      prevState.teamPlaying !== this.state.teamPlaying
+    ) {
+      this.getPlayers();
+    }
   }
 
   render() {
-    // console.log(this.state.position);
+    // console.log(this.state.teamPlaying);
+    const { players, team, totalValue, position, teamPlaying } = this.state;
     return (
       <div>
         <Header />
@@ -112,10 +136,12 @@ class App extends Component {
             <NewPlayer getPlayers={this.getPlayers} />
             <Filter
               handlePositionSelection={this.handlePositionSelection}
-              position={this.state.position}
+              position={position}
+              handleTeamPlaying={this.handleTeamPlaying}
+              teamPlaying={teamPlaying}
             />
             <Players
-              playersList={this.state.players}
+              playersList={players}
               delete={this.handleDelete}
               getPlayers={this.getPlayers}
               handleAddToTeam={this.handleAddToTeam}
@@ -124,9 +150,9 @@ class App extends Component {
           </section>
           <aside className="sidebar">
             <Team
-              teamToBuild={this.state.team}
+              teamToBuild={team}
               handleRemoveTeam={this.handleRemoveTeam}
-              totalValue={this.state.totalValue}
+              totalValue={totalValue}
             />
           </aside>
         </div>
@@ -134,5 +160,4 @@ class App extends Component {
     );
   }
 }
-
 export default App;

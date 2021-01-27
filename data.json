@@ -4,7 +4,7 @@
     "name": "Luis Suarez",
     "position": "Striker",
     "value": 60,
-    "team": "Atl. Madrid",
+    "team": "Atletico de Madrid",
     "image": "https://images.daznservices.com/di/library/GOAL/c7/33/luis-suarez-atletico-madrid_ethkazi92kbb1xgpa0t8vl938.jpg?t=1836506261&quality=100"
   },
   {
@@ -94,5 +94,77 @@
     "value": 90,
     "team": "Real Madrid",
     "image": "https://img.bleacherreport.net/img/images/photos/003/854/744/hi-res-2c41e8b5c549c8a4e49ac21b5b9e6f2e_crop_north.jpg?1582813708&w=3072&h=2048"
+  },
+  {
+    "id": 13,
+    "name": "Andre Ter Stegen",
+    "position": "Goalkeeper",
+    "value": 50,
+    "team": "Barcelona",
+    "image": "https://everythingbarca.com/wp-content/uploads/getty-images/2016/04/1208772448.jpeg"
+  },
+  {
+    "id": 14,
+    "name": "Diego Godin",
+    "position": "Defender",
+    "value": 20,
+    "team": "Cagliari",
+    "image": "https://en.as.com/futbol/imagenes/2018/07/17/primera/1531854360_328280_1531854634_noticia_normal.jpg"
+  },
+  {
+    "id": 15,
+    "name": "Dani Carvajal",
+    "position": "Defender",
+    "value": 50,
+    "team": "Real Madrid",
+    "image": "https://therealchamps.com/wp-content/uploads/getty-images/2017/07/1194744753.jpeg"
+  },
+  {
+    "id": 16,
+    "name": "Lionel Messi",
+    "position": "Striker",
+    "value": 250,
+    "team": "Barcelona",
+    "image": "https://ca-times.brightspotcdn.com/dims4/default/5ac98ee/2147483647/strip/true/crop/3663x2442+0+0/resize/1486x991!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F87%2Fdf%2Ff1b51734478e98b023b4871deefd%2Fvirus-outbreak-spain-soccer-restart-01706.jpg"
+  },
+  {
+    "id": 17,
+    "name": "Koke",
+    "position": "Midfielder",
+    "value": 55,
+    "team": "Atletico de Madrid",
+    "image": "https://images.daznservices.com/di/library/GOAL/7e/3c/koke-atletico-madrid-2019-20_1xik73fbdxfuo11u8iweaj0psc.jpg?t=198433197&quality=100"
+  },
+  {
+    "id": 18,
+    "name": "Cristiano Ronaldo",
+    "position": "Striker",
+    "value": 120,
+    "team": "Juventus",
+    "image": "https://cdn.newsapi.com.au/image/v1/83e4d2c353687fe3893c3fa577a689c4"
+  },
+  {
+    "id": 19,
+    "name": "Manuel Neuer",
+    "position": "Goalkeeper",
+    "value": 60,
+    "team": "Bayern Munich",
+    "image": "https://m.dw.com/image/52628815_101.jpg"
+  },
+  {
+    "id": 20,
+    "name": "Karim Benzema",
+    "position": "Striker",
+    "value": 70,
+    "team": "Real Madrid",
+    "image": "https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2Fa696f77a-d71e-11ea-8f95-6d813022b2d7.jpg?crop=4500%2C2531%2C0%2C459&resize=1180"
+  },
+  {
+    "id": 21,
+    "name": "Kevin de Bruine",
+    "position": "Striker",
+    "value": 90,
+    "team": "Manchester City",
+    "image": "https://www.essentiallysports.com/wp-content/uploads/de-bruyne.jpg"
   }
 ]
